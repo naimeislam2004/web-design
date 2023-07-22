@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration Form</title>
+  <link rel='stylesheet' type='text/css' media='screen' href='css/registration-form.css'>
+
+</head>
+<body>
+  <div class="r-box">
+    <div class="heading"><h2>Registration</h2><hr></div>
+      <form action="action-page.php" method="get" id="form" autocomplete>
+      <div class="in-wraper">
+          <div class="d-ibox">
+            <div class="s-ibox">
+              <label for="name"><h4>Full Name</h4></label>
+              <input class="s-input" type="text" id="name" name="name" placeholder="Enter your name">
+            </div>
+            <div class="s-ibox">
+              <label for="username"><h4>Username</h4></label>
+              <input class="s-input" type="text" id="username" name="username" placeholder="Enter your username">
+            </div>
+          </div>
+          <div class="d-ibox">
+            <div class="s-ibox">
+              <label for="email"><h4>E-mail</h4></label>
+              <input class="s-input" type="email" id="email" name="email" placeholder="Enter your mail address">
+            </div>
+            <div class="s-ibox">
+              <label for="phone"><h4>Phone Number</h4></label>
+              <input class="s-input" type="number" id="phone" name="phone" placeholder="Enter your number">
+            </div>
+          </div>
+          <div class="d-ibox">
+            <div class="s-ibox">
+              <label for="pwd"><h4>Password</h4></label>
+              <input class="s-input" type="password" id="pwd" name="pwd" placeholder="Enter your password">
+            </div>
+            <div class="s-ibox">
+              <label for="c-pwd"><h4>Confirm Password</h4></label>
+              <input class="s-input" type="password" id="c-pwd" name="c-pwd" placeholder="Confirm your password">
+            </div>
+          </div>
+      </div>
+
+      <div class="gen-wrapper">
+        <h4>Gender</h4>
+        <div class="s-gbox">
+          <div class="gen-box">
+            <input type="radio" id="male" name="gender">
+            <label for="male">Male</label>
+          </div>
+          <div class="gen-box">
+            <input type="radio" id="female" name="gender">
+            <label for="female">Female</label>
+          </div>
+          <div class="gen-box">
+            <input type="radio" id="other" name="gender">
+            <label for="other">other</label>
+          </div>
+        </div>
+      </div>
+
+      <div class="r-button">
+        <input type="submit" value="Register" id="btn-color">
+      </div>
+    </form>
+  </div>
+</body>
+</html>

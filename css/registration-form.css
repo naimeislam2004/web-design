@@ -1,0 +1,105 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-image: linear-gradient(#010130, darkblue, #00dcff);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Verdana, sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+  font-family: Verdana, sans-serif;
+}
+.r-box{
+  width: 550px;
+  background-color: white;
+  overflow: hidden;
+  border-radius: 10px;
+}
+.heading{
+  padding: 20px 0px;
+}
+.heading h2{
+  margin-left: 40px;
+  color: black;
+  text-shadow: 1px 1px 1px #5c5c5c;
+}
+.heading hr{
+  width: 50px;
+  height: 2px;
+  background-image: linear-gradient(90deg, #010130, darkblue, #00dcff);
+  position: relative;
+  left: 40px;
+}
+.in-wraper{
+  width: 100%;
+  padding: 0px 40px;
+  display: inline-block;
+}
+.d-ibox{
+  width: 100%;
+}
+.s-ibox{
+  width: 50%;
+  float: left;
+  margin: 7px 0px;
+}
+.s-input{
+  padding: 10px 10px;
+  margin: 15px 0px;
+  border: 2px solid #8d8d8d;
+  width: 60%;
+  border-radius: 5px;
+}
+.gen-wrapper{
+  width: 100%;
+  padding: 0px 40px;
+  display: inline-block;
+}
+.gen-box{
+  width: 100px;
+  float: left;
+  padding: 10px 30px;
+}
+.s-gbox{
+  margin-top: 10px;
+}
+.r-button{
+  width: 100%;
+  padding: 30px 40px;
+  display: inline-block;
+}
+#btn-color{
+  width: 80%;
+  padding: 10px;
+  border-radius: 10px;
+  background-image: linear-gradient(45deg, #010130, darkblue, #00dcff);
+  color: white;
+  font-size: 18px;
+}
+@media screen and (max-width: 550px){
+  body{
+    display: inline-block;
+    background: none;
+  }
+  .r-box{
+    width: 100%;
+  }
+  .heading{
+    width: 100%;
+  }
+  .s-ibox{
+    width: 100%;
+  }
+  .gen-box{
+    width: 100%;
+  }
+  #btn-color{
+    width: 67%;
+  }
+}

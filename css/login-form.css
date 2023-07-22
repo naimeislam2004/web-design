@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: linear-gradient(#00003c, darkblue, aqua);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Verdana, sans-serif;
+}
+@media screen and (max-width: 450px) {
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: normal;
+        background: none;
+    }
+    .login-box{
+        width: 100%;
+    }
+}
+.login-box{
+    width: 350px;
+    height: 350px;
+    background-color: white;
+    padding: 30px 40px;
+    border-radius: 20px;
+}
+.heading h2{
+    text-align: center;
+    font-family: vardana, sans-serif;
+    padding: 25px 0px;
+    font-size: 35px;
+}
+.ibox-wrapper{
+    width: 100%;
+}
+.i-box{
+    width: 100%;
+}
+.i-box input{
+    width: 95%;
+    padding: 10px 8px;
+    background-color: #e0e0e2;
+    border: none;
+    border-radius: 5px;
+    margin: 10px 0px;
+}
+.forgot-pwd a{
+    text-decoration: none;
+    color: #0371a3;
+    float: right;
+    margin-right: 1%;
+    font-size: 15px;
+}
+.login-btn p{
+    text-align: center;
+}
+.login-btn p a{
+    text-decoration: none;
+}
+@media screen and (max-width: 360px) {
+    .login-btn p {
+        font-size: 12px;
+    }
+    .heading h2{
+        font-size: 28px;
+    }
+}
+@media screen and (max-width: 290px) {
+    .login-btn p {
+        font-size: 10px;
+    }
+}
+.login-btn input{
+    width: 100%;
+    padding: 10px;
+    border-radius: 3px;
+    background-color: darkblue;
+    color: white;
+    font-size: 16px;
+    margin: 10px 0px;
+}
